@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Run Tests"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu1MouseClicked"/>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="jMenu1MenuSelected"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Create Tests"/>
+          </Properties>
+          <Events>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="jMenu2MenuSelected"/>
+            <EventHandler event="menuKeyPressed" listener="javax.swing.event.MenuKeyListener" parameters="javax.swing.event.MenuKeyEvent" handler="jMenu2MenuKeyPressed"/>
+          </Events>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="94" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane3" min="-2" pref="436" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="codeurl" min="-2" pref="310" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextField2" max="32767" attributes="0"/>
+                          <Component id="jScrollPane2" pref="194" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="save" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="243" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="codeurl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane2" pref="322" max="32767" attributes="0"/>
+                  <Component id="jScrollPane3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="save" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="saveMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Test"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton2MouseClicked"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jButton2KeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="codeurl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C:\u005c\u005cwamp\u005c\u005cwww\u005c\u005cGIT\u005c\u005cTrunk\u005c\u005cui\u005c\u005ctest\u005c\u005cmpower\u005c\u005cformlockauto.js" containsInvalidXMLChars="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="codeurlActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="ObjectList">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="ATR1={value=SYSTEMI}&#xa;ATR2={value=pfadmin}&#xa;ATR3={value=332}&#xa;ATR4={value=20160704T120000Z}&#xa;ATR5={value=IPF_L1Approver1}&#xa;CHECKBOX_114={value=no}&#xa;COMBO_BOX={value=[100008, 100000, 100001]}&#xa;CR12={40905ba8-1045-4ced-804f-db669390615c={CATTACHMENT={value=secondarytile.png#ms_attach_delimiter#41255}, CCHECKBOX={value=no}, CCMCOMBOORG={value=[100004, 100000, 100008]}, CCMCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}, CCOMBO={value=[100001, 100003, 100004, 100005, 100007]}, CCOMBOORG={value=[100000, 100001, 100003, 100002]}, CCOMBOUSER={value=[Functional.Expert, IPF_Initiator, IPF_L1Approver]}, CDATE={value=}, CDROPDOWN={value=100008}, CLOV={value=100008}, CMCOMBO={value=[1, 2, 3]}, CMLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, CMULTIATTACH={value=[secondarytile.png#ms_attach_delimiter#41257, newscript123.txt#ms_attach_delimiter#41256]}, CNORMAL={value=123}, COMBO={value=[1, 2, 3]}, CR12_ATR1={value=}, CRADIO={value=100007}, CRICHTEXT={value=Second User}, CRTF={value=}, CTEXT={value=test}, CTEXTAREA={value=First User}, C_EMPLOYEE_COUNTRY_COMBO={value=[100008, 100000, 100001]}, DYNAMICTYPE={value=}, LISTOFOBJS={value=MS_ATD_ALLFIELDMULTIROW}, LIST_OF_DATAOBJS={value=}, STATICTYPEOBJ={value=[5656, 876, 3333]}}, baa444df-499e-4457-8161-9558f2d5e16a={CATTACHMENT={value=}, CCHECKBOX={value=no}, CCOMBO={value=[]}, CDATE={value=20160511T120000Z}, CDROPDOWN={value=100000}, CLOV={value=100000}, CMLOV={value=[]}, CMULTIATTACH={value=[]}, CNORMAL={value=543}, CR12_ATR1={value=}, CRADIO={value=100001}, CRICHTEXT={value=&lt;p&gt;3454353&lt;/p&gt;}, CRTF={value=}, CTEXT={value=test}, CTEXTAREA={value=435345}, C_EMPLOYEE_COUNTRY_COMBO={value=[100008, 100000, 100001]}, DYNAMICTYPE={value=}, LISTOFOBJS={value=MS_ATD_DEFAULTINFOLET}, LIST_OF_DATAOBJS={value=}, STATICTYPEOBJ={value=[5656, 876, 3333]}}, order=[40905ba8-1045-4ced-804f-db669390615c, baa444df-499e-4457-8161-9558f2d5e16a]}&#xa;CR27={44a80c6e-34ca-4d19-adbb-be2840416350={CR27_ATR1={value=}, CR28={9148d934-ff61-49eb-85bd-d103b0bf3be0={CR28_ATR1={value=}, CR29={e9ae8314-3def-4203-8061-9d61cafb712d={CR29_ATR1={value=}, T3ATTACHMENT={value=}, T3CHECKBOX={value=no}, T3COMBO={value=[100003, 100007, 100008, 100009, 100010, 100011]}, T3DATE={value=}, T3LOV={value=100008}, T3MLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, T3MULTIATTACH={value=[]}, T3NORMAL={value=1232121bghjghjghj}, T3RADIO={value=100008}, T3RICHTEXT={value=}, T3TEXTAREA={value=12321}}, order=[e9ae8314-3def-4203-8061-9d61cafb712d]}, T2ATTACHMENT={value=}, T2CHECKBOX={value=no}, T2COMBO={value=[100002, 100003, 100005, 100006, 100007]}, T2DATE={value=20160506T003000Z}, T2DROPDOWN={value=100005}, T2LOV={value=100006}, T2MLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, T2MULTIATTACH={value=[]}, T2NORMAL={value=12321}, T2RADIO={value=100003}, T2RICHTEXT={value=}, T2TEXTAREA={value=12321}}, order=[9148d934-ff61-49eb-85bd-d103b0bf3be0]}, T1ATTACHMENT={value=}, T1CHECKBOX={value=no}, T1COMBO={value=[100006, 100007, 100008]}, T1DATE={value=20160507T003000Z}, T1DROPDOWN={value=}, T1LOV={value=100000}, T1MLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, T1MULTIATTACH={value=[newscript123.txt#ms_attach_delimiter#41317]}, T1NORMAL={value=12321}, T1RADIO={value=100013}, T1RICHTEXT={value=Second User}, T1TEXTAREA={value=}, T2_COMBO_BOX={value=[100008, 100000, 100001]}, TCOMBO={value=[1, 2, 3]}, TCOMBOORG={value=[100000, 100001, 100003, 100002]}, TCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}, TDROPDOWN={value=100008}, TLOV={value=100008}, TNUM={value=1}, TREELISTOFDATAOBJS={value=MS_TDA_ADT_TEST}, TRTF={value=}, TTCMCOMBO={value=[1, 2, 3]}, TTCMCOMBOORG={value=[100004, 100000, 100008]}, TTCMCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}}, 85f6bd05-7541-44bf-8157-26c75d170415={CR27_ATR1={value=}, T1ATTACHMENT={value=}, T1CHECKBOX={value=no}, T1COMBO={value=[100006, 100007, 100008]}, T1DATE={value=20160507T003000Z}, T1DROPDOWN={value=}, T1LOV={value=100000}, T1MLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, T1MULTIATTACH={value=[newscript123.txt#ms_attach_delimiter#41317]}, T1NORMAL={value=1221}, T1RADIO={value=100013}, T1RICHTEXT={value=Second User}, T1TEXTAREA={value=}, T2_COMBO_BOX={value=[100008, 100000, 100001]}, TCOMBO={value=[1, 2, 3]}, TCOMBOORG={value=[100000, 100001, 100003, 100002]}, TCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}, TDROPDOWN={value=100008}, TLOV={value=100008}, TNUM={value=5}, TREELISTOFDATAOBJS={value=MS_TDA_ADT_TEST}, TRTF={value=}, TTCMCOMBO={value=[1, 2, 3]}, TTCMCOMBOORG={value=[100004, 100000, 100008]}, TTCMCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}}, order=[85f6bd05-7541-44bf-8157-26c75d170415, 44a80c6e-34ca-4d19-adbb-be2840416350]}&#xa;DD_ACTION={value=}&#xa;DD_CURRENT_STAGE={value=}&#xa;DD_CURRENT_STATUS={value=}&#xa;DD_CURRENT_USER_NAME={value=TEST_USER}&#xa;DD_ENTERPRISE_INFO={value=MetricStream}&#xa;DD_EVENT_USER_NAME={value=SYSTEMI}&#xa;DD_OBJECT_TYPE={value=MS_WRK_TREEFIELD}&#xa;DD_PROCESS_CODE={value=wftree}&#xa;DROP_DOWN={value=100008}&#xa;FCMCOMBO={value=[1, 2, 3]}&#xa;FCMCOMBOORG={value=[100004, 100000, 100008]}&#xa;FCMCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}&#xa;FCOMBO={value=[1, 2, 3]}&#xa;FCOMBOORG={value=[100000, 100001, 100003, 100002]}&#xa;FCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}&#xa;FLOV={value=100008}&#xa;FRTF={value=}&#xa;GR18={421be31b-4cbc-4dcb-8228-9fc67a0f69b9={GATTACHMENT={value=}, GCHECKBOX={value=no}, GCMCOMBO={value=[1, 2, 3]}, GCMCOMBOORG={value=[100004, 100000, 100008]}, GCMCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}, GCOMBO={value=[100005, 100006, 100008]}, GCOMBOORG={value=[100000, 100001, 100002, 100003]}, GCOMBOUSER={value=[Functional.Expert, IPF_L1Approver, appsadmin]}, GDATE={value=20160526T120000Z}, GDROPDOWN={value=}, GDROPDOWNN={value=100008}, GGCOMBO={value=[1, 2, 3]}, GLOV={value=100008}, GMLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, GMULTIATTACH={value=[]}, GNORMAL={value=34543}, GNUM={value=321}, GR18_ATR1={value=}, GRICHTEXT={value=&lt;p&gt;34543&lt;/p&gt;}, GTEXTAREA={value=3454}, G_EMP_COUNTRY_COMBO={value=[100000, 100001, 100008]}, LISTOFDATAOBJ={value=StaticLov^4}, TEXTBOX_8={value=}}, 9c1029c3-a428-4510-a62f-7fa65a1a3587={GATTACHMENT={value=newscript123.txt#ms_attach_delimiter#41282}, GCMCOMBO={value=[1, 2, 3]}, GCMCOMBOORG={value=[100004, 100000, 100008]}, GCMCOMBOUSER={value=[appsadmin, Functional.Expert, IPF_Initiator]}, GCOMBO={value=[100006, 100009, 100010]}, GCOMBOORG={value=[100000, 100001, 100002, 100003]}, GCOMBOUSER={value=[Functional.Expert, IPF_L1Approver, appsadmin]}, GDATE={value=20160506T003000Z}, GDROPDOWN={value=}, GDROPDOWNN={value=100011}, GGCOMBO={value=[1, 2, 3]}, GLOV={value=100010}, GMLOV={value=[100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012]}, GMULTIATTACH={value=[newscript123.txt#ms_attach_delimiter#41284, secondarytile.png#ms_attach_delimiter#41283]}, GNORMAL={value=12321}, GNUM={value=123}, GR18_ATR1={value=}, GRICHTEXT={value=Second User}, GTEXTAREA={value=First User}, G_EMP_COUNTRY_COMBO={value=[100000, 100001, 100008]}, LISTOFDATAOBJ={value=MS_TDA_ADT_TEST}, TEXTBOX_8={value=}}, order=[421be31b-4cbc-4dcb-8228-9fc67a0f69b9, 9c1029c3-a428-4510-a62f-7fa65a1a3587]}&#xa;GROUP1={value=}&#xa;GROUP2={value=}&#xa;GROUP3={value=}&#xa;GROUP4={value=}&#xa;LISTOFDATAOBJECTS={value=MS_ATD_ALLFIELDMULTIROW}&#xa;LOV={value=100008}&#xa;MLOV={value=[100012, 100000, 100001]}&#xa;ORGANIZATIONSFORCHILD={value=[100000, 100001]}&#xa;RADIOO={value=100008}&#xa;Total Subcomponents 36"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JSON Path"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField2KeyTyped"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="code">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load Code"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton3MouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
